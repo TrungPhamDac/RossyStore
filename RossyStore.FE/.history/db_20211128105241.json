@@ -1,0 +1,133 @@
+{
+  "products": [
+    {
+      "id": "1",
+      "name": "Nike Air Max 1 Ultra Essential",
+      "role": "Gym & Training",
+      "price": 3390000,
+      "imgSrc": "/img/trang_air-max-1-ultra-essential-shoe_1_large.jpg",
+      "details_sideImg": [
+        "/img/product_details2/details_1_1.jpg",
+        "/img/product_details2/details_1_2.jpg",
+        "/img/product_details2/details_1_3.jpg"
+      ],
+      "purpose": "Gym & Training",
+      "color": [
+        "Vàng",
+        "Tím",
+        "Xanh"
+      ],
+      "size": [
+        40,
+        41,
+        42
+      ],
+      "number": 1
+    },
+    {
+      "id": "2",
+      "name": "Kobe Xi",
+      "purpose": "Gym & Training",
+      "price": 4590000,
+      "imgSrc": "/img/trang_kobe-xi-basketball-shoe_1_large.jpg",
+      "color": [],
+      "size": [],
+      "number": 1
+    },
+    {
+      "id": "3",
+      "name": "Nike Train Speed 4",
+      "purpose": "Running",
+      "price": 3090000,
+      "imgSrc": "/img/do_train-speed-4-training-shoe_1_large.jpg",
+      "color": [],
+      "size": [],
+      "number": 1
+    },
+    {
+      "id": "4",
+      "name": "Nike Free Train Versatility",
+      "purpose": "Running",
+      "price": 3090000,
+      "imgSrc": "/img/xanh-la_free-train-versatility-training-shoe_1_large.jpg",
+      "color": [],
+      "size": [],
+      "number": 1
+    },
+    {
+      "id": "5",
+      "name": "Nike Air Zoom Pegasus 33",
+      "purpose": "Lifestyle",
+      "price": 2878000,
+      "imgSrc": "/img/xanh_air-zoom-pegasus-33-running-shoe_1_0022470b4f054d7d9ec3a5f39a0ea7f5_large.jpg",
+      "details_sideImg": [
+        "/img/product_details/details_5_1.jpg",
+        "/img/product_details/details_5_2.jpg",
+        "/img/product_details/details_5_3.jpg",
+        "/img/product_details/details_5_4.jpg",
+        "/img/product_details/details_5_6.jpg"
+      ],
+      "color": [
+        "Xanh",
+        "Đen",
+        "Đỏ"
+      ],
+      "size": [
+        40,
+        41,
+        42
+      ],
+      "number": 1
+    },
+    {
+      "id": "6",
+      "name": "Nike Air Zoom Pegasus 33",
+      "purpose": "Lifestyle",
+      "price": 2878000,
+      "imgSrc": "/img/xanh_air-zoom-pegasus-33-running-shoe_1_large.jpg",
+      "color": [],
+      "size": [],
+      "number": 1
+    },
+    {
+      "id": "7",
+      "name": "Nike Air Presto Mid Utility  ",
+      "purpose": "Lifestyle",
+      "price": 4290000,
+      "imgSrc": "/img/xam_air-presto-mid-utility-shoe_1_large.jpg",
+      "color": [],
+      "size": [],
+      "number": 1
+    },
+    {
+      "id": "8",
+      "name": "Nike Metcon 2",
+      "purpose": "Tennis",
+      "price": 3690000,
+      "imgSrc": "/img/do_metcon-2-training-shoe_1_large.jpg",
+      "color": [],
+      "size": [],
+      "number": 1
+    }
+  ],
+  "clients": [
+    {
+      "id": "1",
+      "name": "Toàn",
+      "phoneNumber": "0934189092",
+      "address": "Q10 HCM",
+      "email": "toan@gmail.com",
+      "password": "123"
+    },
+    {
+      "id": "2",
+      "name": "Linh",
+      "phoneNumber": "0703667106",
+      "address": "Q5 HCM",
+      "email": "linhtl@gmail.com",
+      "password": "123"
+    }
+  ],
+  "cart": [],
+  "account": []
+}
