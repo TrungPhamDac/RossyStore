@@ -1,0 +1,107 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>RossyStore-Invoice PDF</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            list-style: none;
+        }
+
+        body {
+            margin: 24px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        .header {
+            margin-bottom: 40px;
+        }
+
+        .table-info-customer {
+            width: 50%;
+        }
+
+        .header table {
+            width: 100%;
+            /* border: 1px solid black; */
+        }
+
+        .header table tr td h1 {
+            text-align: center;
+        }
+
+        .info-customer {
+            text-align: right;
+        }
+
+        .name {
+            text-align: left;
+        }
+
+        .content table {
+            width: 100%;
+            line-height: inherit;
+            text-align: right;
+            /* border: 1px solid black; */
+        }
+
+        .abc {
+        }
+
+        .content-1 th {
+            padding: 8px;
+            border-bottom: 1px solid #eee;
+        }
+
+        .content-1 td {
+            border-bottom: 1px solid #eee;
+        }
+
+        .info {
+            display: flex;
+            flex-direction: column;
+        }
+    </style>
+</head>
+<body>
+    <div class='header'>
+        <table>
+            <tr>
+                <td class='logo'><img src='https://res.cloudinary.com/dd0x1hbtf/image/upload/v1639454749/logo_mtnjw7.png?fbclid=IwAR2vZMvWtAlZaoKsQZsweVXKVNyBPgqNmM-Wh7zCPrDyAlltheHYsbE3iz4' alt='logo'></td>
+                <td><h1>INVOICE</h1></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>
+                    <table class='table-info-customer'>
+                        {data_customer}
+                    </table>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div class='content'>
+        <table>
+            <tr class='content-1'>
+                <th class='name'>Product</th>
+                <th>Color</th>
+                <th>Size</th>
+                <th>Price</th>
+                <th>Amount</th>
+                <th>Total</th>
+            </tr>
+            <tr class='content-1'>
+                {data_product}
+            </tr>
+            <tr>
+                {data_total}
+            </tr>
+        </table>
+    </div>
+</body>
+</html>

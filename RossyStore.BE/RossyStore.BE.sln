@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31702.278
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RossyStore.API", "RossyStore.API\RossyStore.API.csproj", "{CCC0B924-0825-4004-B279-5D0C33966C04}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RossyStore.Core", "RossyStore.Core\RossyStore.Core.csproj", "{F4014155-A8FF-4E30-B1D6-7CA3F85175D7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CCC0B924-0825-4004-B279-5D0C33966C04}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CCC0B924-0825-4004-B279-5D0C33966C04}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CCC0B924-0825-4004-B279-5D0C33966C04}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CCC0B924-0825-4004-B279-5D0C33966C04}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F4014155-A8FF-4E30-B1D6-7CA3F85175D7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F4014155-A8FF-4E30-B1D6-7CA3F85175D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F4014155-A8FF-4E30-B1D6-7CA3F85175D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F4014155-A8FF-4E30-B1D6-7CA3F85175D7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {21475B7A-D6E9-49ED-9E64-84BFBD3CA512}
+	EndGlobalSection
+EndGlobal
